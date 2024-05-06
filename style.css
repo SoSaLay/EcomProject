@@ -1,0 +1,38 @@
+
+
+/* Fundamental Website Components */
+
+.hidden{
+    display: none;
+}
+
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.hamburger{
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #f8f9fa;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* @media(max-width:768px){
+.headerBottom{
+    width: 100%;
+}
+
+} */
+
+.is-visible{
+    display:block;
+}
