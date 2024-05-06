@@ -1,22 +1,118 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding:0;
+  font-family: "Merriweather Sans", sans-serif;
+
+}
 
 
-/* Fundamental Website Components */
+.navbar{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: antiquewhite;
+}
 
-.hidden{
+.brandName{
+  font-family: "Oswald";
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin: .5rem;
+  
+}
+
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li{
+ list-style:none;
+}
+
+.navbar-links li:hover{
+  background-color: aqua;
+ }
+
+.navbar-links li a{
+ text-decoration: none;
+ color: white;
+ padding: 1rem;
+ display: block;
+}
+
+.toggle{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px;
+  height: 51px;
+}
+
+.toggle .toggle-button{
+  height: 95px;
+  width: 100%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+@media(max-width:600px){
+
+  .toggle{
+    display: flex;
+  }
+
+  .navbar-links {
     display: none;
+    width: 100%;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+    
+  }
+
+  .navbar-links li {
+    text-align: center;
+   }
+
+
+.navbar-links li a{
+  padding: .5rem 1rem;
+ }
+
+ .navbar-links.active{
+  display: flex;
+ }
+
+
+
 }
 
 
-.navbar {
-  margin-bottom: 20px;
-}
 
-.hamburger{
-    background: none;
-    border: none;
-    font-size: 40px;
-    cursor: pointer;
-}
+
+
+
+
 
 footer {
   padding: 10px 0;
@@ -26,13 +122,3 @@ footer {
   width: 100%;
 }
 
-/* @media(max-width:768px){
-.headerBottom{
-    width: 100%;
-}
-
-} */
-
-.is-visible{
-    display:block;
-}
