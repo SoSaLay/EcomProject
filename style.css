@@ -11,6 +11,17 @@ body{
 
 }
 
+
+h3{
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+p{
+  font-size: 0.9rem;
+  color: #666
+}
+
 /* Navigation Section */
 .navbar{
  
@@ -128,10 +139,18 @@ text-align: center;
   background-color: #e0e7da;
 }
 
+  .curve{
+    margin-bottom: -15px;
+    width: 100%;
+  }
+
+
 .usp{
-  background-color: #5d5756;
+  background: linear-gradient(to bottom,#0099ff, #f0f0f0);
+  color: #272e3c;
   padding: 20px;
   list-style: none;
+
 
 }
 
@@ -142,6 +161,217 @@ text-align: center;
 
 }
 
+
+
+.numberSteps{
+  width: 50px;
+  height: auto;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.techCollage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  height: 50rem;
+  margin-top: 15px;
+  border-radius: 45px;
+
+}
+
+.techTools{
+  text-align: center;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-image:url(/Images/data.svg)
+
+
+}
+
+
+
+
+.testimonial{
+  background-color: #e0e7da;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-banner{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.singleTestimonial{
+  width: 30%;
+  min-width: 200px;
+  max-width: 300px;
+  padding: 15px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.testimonial-background{
+  width: 100%;
+  background-color: #0099ff;
+  border-radius: 2%;
+}
+
+.testimonial-slider{
+position: relative;
+width: 80%;
+margin: 0 auto;
+overflow: hidden;
+padding: 20px;
+}
+
+.testimonial-wrapper{
+display: flex;
+transition: translate 0.5s ease;
+}
+
+.testimonial{
+  flex: 0 0 50%;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.testimonial-slider-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.blockquote{
+  font-style: italic;
+  color: #666;
+}
+
+.customerInfo{
+  margin-top: 12px;
+  color: #272e3c;
+}
+
+.arrow{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: opacity 0.2 ease;
+  opacity: 0;
+}
+
+.left-Arrow{
+  left:15px;
+}
+.right-Arrow{
+  right:10px;
+}
+
+.testimonial-slider:hover .arrow{
+  opacity: 1;
+}
+
+
+
+.cta-button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: aqua;
+  background-color: #666;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: backgroung-color 0.5s;
+}
+
+.cta-button:hover{
+  background-color: #272e3c;
+}
+
+
+
+.impact-figures{
+  display: flex;
+  justify-content: space-around;
+  gap:10px;
+  margin-top: 30px;
+  border-top: none;
+}
+
+.impactNum ul {
+  list-style: none;         
+  padding-left: 0;          
+  margin-top: 20px;         
+}
+
+.impactNum ul li {
+  margin-bottom: 10px;     
+
+  font-weight: bold;        
+}
+
+.impactNum ul li::before {
+  content: '✅';            
+  margin-right: 8px;        
+}
+
+.directNumbers{
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-left: 1.5px solid purple;
+}
+
+.directNumbers-child{
+  border-left: none;
+}
+
+.directNumbers h2{
+  font-size: 2.5rem;
+  margin: 0;
+  color: red;
+}
+
+.directNumbers p{
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0 0 0;
+}
+
+.impactNum{
+  text-align: center;
+}
+
+section{
+  margin-bottom: 40px;
+}
 
 footer {
   margin-top: 175px;
