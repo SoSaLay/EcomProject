@@ -4,13 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="contact.css"> 
 </head>
 <body>
     
-    <p> We equip leader with the the infromation they need to inovat, trnasform and profit</p>
+
+     <section class="contact"> 
+
+        <aside class="infoSection">
+            <img src="#" alt="Infomrative" class="info-image">
+            <div class="infoText">
+                <h3>General Inquiries</h3>
+                <p> For all other matters, please send a email to:</p>
+                <a href="mailto:info@marketinfoz.com"> info@MarketInfoZ.com</a>
+            </div>
+
+            <div class="socialIcons"> 
+                <h4>Follow Us</h4>
+                <img src="/Images/IG.svg" alt="Instagram Icon" class="social-icons">
+                <img src="/Images/facebook.svg" alt="Facebook Icon" class="social-icons">
+                <img src="/Images/linkedin.svg" alt="Linkedin Icon" class="social-icons">
+            </div>
+
+        </aside>
+
+        <section class ="FormArea">
+            <h2> Contact Us</h2>
+            <p> We equip leader with the the infromation they need to inovate,
+                trnasform and profit
+            </p>
+
+            
+            <form id="contactForm"> 
+            <!-- Name Section of form -->
+            <div class ="nameSection">
+                <input type="text" name="first-name" placeholder="First Name" required>
+                <input type="text" name="last-name" placeholder="Last Name" required>
+            </div>
+
+            <!-- Email & Company section -->
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="company" placeholder="company" required>
+
+            <!-- Multiple Choice Checkbox -->
+            <div class="checkbox"> 
+                <h4> What should we Talk About?</h4>
+                <label> <input type="checkbox" name="investing"> Investing</label>
+                <label> <input type="checkbox" name="startupDevelopment"> Startup Development</label>
+                <label> <input type="checkbox" name="personalFinance "> Personal Finance</label>
+            </div>
+
+            <!-- Radio Button(Select Only 1) -->
+            <div>
+                <label> <input type="radio" name="genQuestions" value="Ques1" required> Question 1 </label>
+                <label> <input type="radio" name="genQuestions" value="Ques2" required> Question 2 </label>
+                <label> <input type="radio" name="genQuestions" value="Ques3" required> Question 3 </label>
+
+            </div>
+
+            <!-- Open Ended Question -->
+            <div class="openEnd">
+                <textarea name="comments" placeholder="Tell us a bit about your goals" row="6" required> </textarea>
+            </div>
 
 
+            <button type="submit"> Submit </button>
+
+        </form>
+
+        </section>
+
+     </section>
 
 
+<script src="script.js"> </script>
 </body>
 </html>
