@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="contact.css"> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Freeman&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Freeman&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
 </head>
 <body>
+    <nav class = "navbar">
+
+        <a href="index.html" class="brandName">MarketInfoZ</a>
+        
+        <a href="#" class="toggle">
+           <img src="/Images/hamburger-menu-svgrepo-com.svg" class="toggle-button" alt="Menu">
+        </a>
+         <div class="navbar-links"> 
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html"> Product</a></li>
+                
+            </ul>
+        </div>
     
+    </nav>
 
      <section class="contact"> 
 
         <aside class="infoSection">
-            <img src="#" alt="Infomrative" class="info-image">
+            <img src="/Images/moneyMan.svg" alt="Infomrative" class="info-image">
             <div class="infoText">
                 <h3>General Inquiries</h3>
-                <p> For all other matters, please send a email to:</p>
+                <p> For all other matters, please send a email:</p>
                 <a href="mailto:info@marketinfoz.com"> info@MarketInfoZ.com</a>
             </div>
 
             <div class="socialIcons"> 
-                <h4>Follow Us</h4>
+                <h4>Support Our Clout</h4>
                 <img src="/Images/IG.svg" alt="Instagram Icon" class="social-icons">
                 <img src="/Images/facebook.svg" alt="Facebook Icon" class="social-icons">
                 <img src="/Images/linkedin.svg" alt="Linkedin Icon" class="social-icons">
@@ -29,24 +49,24 @@
 
         </aside>
 
-        <section class ="FormArea">
+        <section class ="formArea">
             <h2> Contact Us</h2>
             <p> We equip leader with the the infromation they need to inovate,
-                trnasform and profit
+                transform and profit
             </p>
 
             
             <form id="contactForm"> 
             <!-- Name Section of form -->
             <div class ="nameSection">
-                <input type="text" name="first-name" placeholder="First Name" required>
-                <input type="text" name="last-name" placeholder="Last Name" required>
-            </div>
+                <input type="text" class="textInput" name="first-name" placeholder="full name" required>
+                
+            
 
             <!-- Email & Company section -->
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="text" name="company" placeholder="company" required>
-
+            <input type="email" class="textInput" name="email" placeholder="email" required>
+            <input type="text" class="textInput" name="company" placeholder="company" required>
+             </div>
             <!-- Multiple Choice Checkbox -->
             <div class="checkbox"> 
                 <h4> What should we Talk About?</h4>
@@ -56,20 +76,37 @@
             </div>
 
             <!-- Radio Button(Select Only 1) -->
-            <div>
-                <label> <input type="radio" name="genQuestions" value="Ques1" required> Question 1 </label>
-                <label> <input type="radio" name="genQuestions" value="Ques2" required> Question 2 </label>
-                <label> <input type="radio" name="genQuestions" value="Ques3" required> Question 3 </label>
+            <div class="multipleChoice">
+
+            <div class="radio">
+                <h4>Your primary financial goal? </h4>
+                <label> <input type="radio" name="goals" value="Ques1" required>Saving for retirement </label>
+                <label> <input type="radio" name="goals" value="Ques2" required>Investing for growth</label>
+                <label> <input type="radio" name="goals" value="Ques3" required>Preserving wealth</label>
+                <label> <input type="radio" name="goals" value="Ques4" required>Funding a specific goal</label>
+            </div>
+
+
+            <div class="radio">
+                <h4>What would most likely cause you to switch financial/business advisors?</h4>
+                <label> <input type="radio" name="genQuestions" value="Ques1" required>High fees</label>
+                <label> <input type="radio" name="genQuestions" value="Ques2" required>Poor performance</label>
+                <label> <input type="radio" name="genQuestions" value="Ques3" required>Lack of personalized attention</label>
+                <label> <input type="radio" name="genQuestions" value="Ques4" required>Distrust in the advisor</label>
+            </div>
 
             </div>
+
+
 
             <!-- Open Ended Question -->
             <div class="openEnd">
-                <textarea name="comments" placeholder="Tell us a bit about your goals" row="6" required> </textarea>
+                <textarea name="comments" placeholder="Tell us a bit about your goals" row="6" required></textarea>
             </div>
 
-
+            <div class="buttonArea"> 
             <button type="submit"> Submit </button>
+            </div>
 
         </form>
 
@@ -77,6 +114,7 @@
 
      </section>
 
+   
 
 <script src="script.js"> </script>
 </body>

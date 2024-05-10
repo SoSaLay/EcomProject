@@ -1,0 +1,130 @@
+[
+
+
+{
+
+    "name": "Business Plan Development",
+    "price": "$2,499",
+    "description": "Full-service creation of a business plan, including market analysis, financial projections, marketing strategy, and operational roadmap tailored to the client's objectives.",
+    "image": "/productImages/businessPlan.svg"
+
+},
+
+{
+
+    "name": "Entrepreneur Success Bundle",
+    "price": "$3,499",
+    "description": "A complete service package offering strategic business planning, market positioning, and branding advice for new entrepreneurs, ensuring a strong market entry and sustainable growth.", 
+    "image" : "/productImages/investor.svg"
+
+},
+
+{
+
+    "name": "Investor Portfolio Management Suite",
+    "price": "$4,999",
+    "description": " A holistic investment portfolio management service, including portfolio risk assessment, diversification strategies, and regular performance analysis for optimized returns.",
+    "image": "/productImages/investorPortfolio.svg"
+
+},
+
+{
+
+    "name": "Niche Market Analysis Toolkit",
+    "price": "$1,299",
+    "description": "Research-focused analysis to identify profitable niches, including demographic studies, competitor analysis, and market entry strategie",
+    "image": "/productImages/marketReport.svg"
+
+},
+
+{
+
+    "name": "Strategic Partnership Evaluation Report",
+    "price": "$1,499",
+    "description": "Research and analysis evaluating potential strategic partnerships, offering insights on compatibility, value proposition, and partnership growth potential.",
+    "image": "/productImages/partners.svg"
+
+},
+
+{
+
+    "name": "Growth Opportunity Exploration Package",
+    "price": "$1,699",
+    "description": "Investigation of global growth opportunities aligned with the client's strategic goals, with market entry strategies and competitor insights for informed decision-making.",
+    "image": "/productImages/growth.svg"
+
+},
+
+{
+
+    "name": "Business Insights Report",
+    "price": "$999",
+    "description": "Comprehensive analysis of market trends, competition, and customer preferences tailored to a client's business goals.",
+    "image": "/productImages/insight.svg"
+
+},
+
+{
+
+    "name": "Investor Due Diligence Package",
+    "price": "$1,499",
+    "description": "Detailed research and analysis for investors, offering risk assessments, financial projections, and SWOT analyses of potential investment opportunities.",
+    "image": "/productImages/dueDilli.svg"
+
+},
+
+{
+
+    "name": "Custom Market Strategy Guide",
+    "price": "$799",
+    "description": "Curated strategies based on the client's market positioning and business goals, helping identify opportunities for expansion and growth.",
+    "image": "/productImages/customReport.svg"
+
+},
+
+{
+
+    "name": "Competitor Benchmarking Service",
+    "price": "$699",
+    "description": "Benchmarking data and analysis comparing the client against top competitors, highlighting areas for improvement and potential growth.",
+    "image": "/productImages/indicator.svg"
+
+},
+
+{
+
+    "name": "Goal-Oriented Financial Analysis",
+    "price": "$1,199",
+    "description": "Financial modeling and forecasting designed to align with the client's investment or business objectives, providing a clear roadmap for future planning.",
+    "image": "/productImages/goals.svg"
+
+},
+
+{
+
+    "name": "Business Opportunity Identification Kit",
+    "price": "$899",
+    "description": "In-depth exploration of emerging business opportunities aligned with client goals, including actionable recommendations and strategies.",
+    "image": "/productImages/medal.svg"
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
